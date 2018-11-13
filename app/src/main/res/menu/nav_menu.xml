@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@mipmap/ic_dashboard"
+            android:title="资料"/>
+
+        <item
+            android:id="@+id/nav_collection"
+            android:icon="@mipmap/ic_event"
+            android:title="收藏"/>
+
+        <item
+            android:id="@+id/nav_opinion"
+            android:icon="@mipmap/ic_forum"
+            android:title="意见"/>
+
+    </group>
+
+    <item android:title="其他">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_dashboard"
+                android:title="关于我们"/>
+
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@mipmap/ic_dashboard"
+                android:title="设置"/>
+
+        </menu>
+
+    </item>
+
+</menu>
